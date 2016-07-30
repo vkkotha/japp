@@ -5,4 +5,3 @@ bin
 .gradle-app.setting
 .project
 .classpath
-gradle/wrapper
