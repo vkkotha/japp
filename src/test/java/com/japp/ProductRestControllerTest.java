@@ -21,7 +21,7 @@ public class ProductRestControllerTest {
 
     @Test
     public void exampleTest() {
-        Collection<Product> products = this.restTemplate.getForObject("/api/products", (Class<? extends Collection<Product>>)Collection.class);
+        Collection<Product> products = this.restTemplate.getForObject("/api/products", Collection.class);
         assertThat(products.size() > 1);
     }
 }
